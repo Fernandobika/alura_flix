@@ -22,9 +22,10 @@ body{
 }
 
 .pricipal{
-    background-image: url(*/imagem/background.png);
-    background-repeat: no repeat;
+    background-image: url(*./imagem/background.png);
+    background-repeat: no-repeat;
     background-size: contain;
+    text-align: center;
 }
 
 .container{
@@ -39,7 +40,8 @@ body{
     padding:1em;
     color:var(--branco-principal);
     display:block;
-    text-decoration:nome;
+    text-decoration:none;
+    margin-bottom: 1em;
 }
 
 .botao_secundario{
